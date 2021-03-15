@@ -2,7 +2,7 @@
 /* CSS Document */
 body{
     background-color:#f6f5f5;
-    margin:0px;
+    margin:0%;
     padding:0px;
 }
 ul{
@@ -12,9 +12,9 @@ a{
     text-decoration:none;
 }
 section{
-    width:100%;
+    width:100%; margin:auto
     height:95%vh;
-    background-image:url("D:\Randale_NiTRO\Documents\WEBSITE DESIGN\iGradeDesigns\images\bg.png");
+    background-image:url(images/bckg.jpg);
     background-size:cover;
     background-repeat:no-repeat;
     position: relative;
@@ -58,7 +58,7 @@ nav ul li a{
 .text-container p:nth-child(1){
     font-family: calibri;
     font-weight:bold;
-    color:#6d6d6d;
+    color:#340ba3;
     font-size:22px;
 }
 .text-container p:nth-child(2){
@@ -236,7 +236,8 @@ footer p:nth-child(1){
 }
 footer p:nth-child(2){
     font-size: 16px;
-    color:#7e7d7d;
+    font-weight:bold;
+    color:#340ba3;
     width:600px;
     text-align: center;
 }
@@ -277,7 +278,8 @@ footer{
 }
  
 .copyright{
-    color:#565555;
+    color:#FFFFFF;
+    font-weight:bold;
     font-size: 14px;
     position: absolute;
     left:50%;
