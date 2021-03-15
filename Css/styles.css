@@ -80,32 +80,13 @@ nav ul li a{
     margin:45px 0px 25px;
     line-height:0px;
 }
-.text-container button{
-    width:130px;
-    height:42px;
-    border-radius:10px;
-    font-family:calibri;
-    font-weight:bold;
-    font-size: 14px;
-    outline:none;
-    margin:0px 10px;
-    
-}
 .text-container{
     position: absolute;
     left:13%;
     top:42%;
     transform:translate(-13%,-42%);
 }
-.hire-btn{
-    border:2px solid #373636;
-    color:#373636;
-    background-color:transparent;
-    
-}
-button:active{
-    transform:scale(1.1);
-}
+
 
 .space{
     Height:850px;
@@ -138,7 +119,7 @@ button:active{
 }
 .about-text p:nth-child(2){
     color:#3e3d3d;
-    font-size:13px;
+    font-size:15px;
     font-family: myriad pro;
     font-weight:bold;
     line-height:5px;
@@ -146,7 +127,7 @@ button:active{
 .about-text p:nth-child(3),.about-text p:nth-child(4){
     color:#7e7d7d;
     font-family:calibri;
-    font-size:16px;
+    font-size:17px;
 }
 .about-text button{
     width:120px;
