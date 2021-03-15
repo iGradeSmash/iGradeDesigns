@@ -2,7 +2,7 @@
 /* CSS Document */
 body{
     background-color:#f6f5f5;
-    margin:0%;
+    /*width: 100%; max-width:1920px; min-width:480px; margin-left:-8px;*/
     padding:0px;
 }
 ul{
@@ -12,7 +12,9 @@ a{
     text-decoration:none;
 }
 section{
-    width:100%; margin:auto
+    /*width:100%;*/
+    width:90%; 
+    margin: 0 auto;
     height:95%vh;
     background-image:url(images/bckg.jpg);
     background-size:cover;
@@ -92,7 +94,7 @@ nav ul li a{
     Height:850px;
 }
 .about-container{
-    width:80%;  
+    width:90%;  
     height:350px;
     background:#ffffff;
     border-radius:20px;
@@ -129,16 +131,9 @@ nav ul li a{
     font-family:calibri;
     font-size:17px;
 }
-.about-text button{
-    width:120px;
-    height: 40px;
-    color:#ffffff;
-    outline:none;
-    border:none;
-    font-family: calibri;
-    background-color:#262525;
-}
 .services{
+    width:70%; 
+    margin: 0 auto;
 	height:600px;
 	background-color:#ffffff;
     border-radius:20px;
@@ -164,11 +159,11 @@ nav ul li a{
 .services-text p:nth-child(3){font-family:calibri;
 color:#7e7d7d;
 font-size:25;}
-.services-text{
-	width: 500px;
+.services-text{ 
+    width: 500px;
 	margin:50px 0px;
 }
-.box-container{
+.box-container{ 
 	display:flex;
 	justify-content:space-between;
 }
