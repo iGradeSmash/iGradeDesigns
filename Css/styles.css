@@ -86,9 +86,9 @@ nav ul li a{
 }
 .text-container{
     position: absolute;
-    left:13%;
+    left:15%;
     top:42%;
-    transform:translate(-13%,-42%);
+    transform:translate(-15%,-42%);
 }
 
 
