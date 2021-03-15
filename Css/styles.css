@@ -96,7 +96,7 @@ nav ul li a{
     Height:850px;
 }
 .about-container{
-    width:90%;  
+    width:80%;  
     height:350px;
     background:#ffffff;
     border-radius:20px;
@@ -112,7 +112,7 @@ nav ul li a{
     width:15%;
 }
 .about-text{
-    width:500px;
+    width:380px;
 } 
 .about-text p:nth-child(1){
     color:#403e3e;
@@ -134,7 +134,7 @@ nav ul li a{
     font-size:17px;
 }
 .services{
-    width:70%; 
+    width:60%; 
     margin: 0 auto;
 	height:600px;
 	background-color:#ffffff;
@@ -159,15 +159,17 @@ nav ul li a{
 	line-height: 5px;
 }
 .services-text p:nth-child(3){font-family:calibri;
-color:#7e7d7d;
-font-size:25;}
+color:#3e3d3d;
+font-size:25;
+font-weight: bold;
+}
 .services-text{ 
     width: 500px;
 	margin:50px 0px;
 }
 .box-container{ 
 	display:flex;
-	justify-content:space-between;
+	justify-content:space-evenly;
 }
 .box-1,.box-2,.box-3{
 	width: 300px;
