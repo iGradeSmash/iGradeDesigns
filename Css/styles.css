@@ -172,7 +172,9 @@ font-size:25;}
     margin: 0 auto;
 }
 .box-1,.box-2,.box-3{
-	width: 300px;
+	/*width: 300px;*/
+    width:90%; 
+    margin: 0 auto;
 	height:320px;
 	background-repeat: no-repeat;
 	background-size: cover;
