@@ -19,11 +19,6 @@ a{
     background-repeat:no-repeat;
     position:relative;
 }
-/*section{
-    width:90%; 
-    margin: 0 auto;
-       
-}*/
 
 nav {
     display: flex;
@@ -55,11 +50,14 @@ nav ul li a{
     font-weight:bold;
 }
 .randale{
-    height:500px;
-    position:absolute;
-    bottom:40px;
-    left:75%;
-    transform: translateX(-75%);
+    height:300px;
+    display:flex;
+    float:right;
+    position:inherit;
+    margin-top:15%;
+    margin-right:5%;
+    /*left:75%;
+    transform: translateX(-75%);*/
 }
 .text-container p:nth-child(1){
     font-family: calibri;
@@ -85,20 +83,21 @@ nav ul li a{
 .text-container p{
     margin:45px 0px 25px;
     line-height:0px;
+    min-width:50px;
 }
 .text-container{
     position: absolute;
-    left:15%;
+    left:12%;
     top:42%;
     transform:translate(-15%,-42%);
 }
 
 
 .space{
-    Height:850px;
+    Height:550px;
 }
 .about-container{
-    width:90%;  
+    width:900px;  
     height:350px;
     background:#ffffff;
     border-radius:20px;
@@ -114,7 +113,7 @@ nav ul li a{
     width:15%;
 }
 .about-text{
-    width:380px;
+    width:380px;min-width:165px;
 } 
 .about-text p:nth-child(1){
     color:#403e3e;
@@ -136,7 +135,7 @@ nav ul li a{
     font-size:17px;
 }
 .services{
-    width:70%; 
+    width:800px;min-width:400px; 
     margin: 0 auto;
 	height:600px;
 	background-color:#ffffff;
@@ -166,7 +165,7 @@ font-size:25;
 font-weight: bold;
 }
 .services-text{ 
-    width: 500px;
+    width: 500px;min-width:250px;
 	margin:50px 0px;
 }
 .box-container{ 
@@ -174,7 +173,7 @@ font-weight: bold;
 	justify-content:space-evenly;
 }
 .box-1,.box-2,.box-3{
-	width: 300px;
+	width: 300px;min-width:150px;
 	height:320px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -223,7 +222,7 @@ font-weight: bold;
 	font-family: calibri;
 	color:#8F8F8F;
 	text-align:center;
-	width: 230px;
+	width: 230px;min-width:115px;
 	margin:0px 0px 20px 0px;
 }
 footer p{
@@ -239,7 +238,7 @@ footer p:nth-child(2){
     font-size: 16px;
     font-weight:bold;
     color:#340ba3;
-    width:600px;
+    width:600px;min-width:300px;
     text-align: center;
 }
 footer{
