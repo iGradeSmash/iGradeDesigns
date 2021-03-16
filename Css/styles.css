@@ -3,6 +3,10 @@
 body{
     background-color:#f6f5f5;
     padding:0px;
+    background-image:url("images/bckg.jpg");
+    background-size:900px;
+    background-repeat:no-repeat;
+    position:relative;
 }
 ul{
     list-style:none;
@@ -14,10 +18,10 @@ a{
     width:900px;
     margin: 0% auto;
     height:95%vh;
-    background-image:url(images/bckg.jpg);
-    /*background-size:cover;*/
+    /*background-image:url("images/bckg.jpg");
+    background-size:900px;
     background-repeat:no-repeat;
-    position:relative;
+    position:relative;*/
 }
 
 nav {
@@ -55,7 +59,7 @@ nav ul li a{
     float:right;
     position:inherit;
     margin-top:15%;
-    margin-right:5%;
+    margin-right:3%;
     /*left:75%;
     transform: translateX(-75%);*/
 }
@@ -87,9 +91,9 @@ nav ul li a{
 }
 .text-container{
     position: absolute;
-    left:12%;
-    top:42%;
-    transform:translate(-15%,-42%);
+    left:36%;
+    top:30%;
+    transform:translate(-36%,-30%);
 }
 
 
@@ -97,7 +101,7 @@ nav ul li a{
     Height:550px;
 }
 .about-container{
-    width:900px;  
+    width:860px;  
     height:350px;
     background:#ffffff;
     border-radius:20px;
@@ -135,7 +139,7 @@ nav ul li a{
     font-size:17px;
 }
 .services{
-    width:800px;min-width:400px; 
+    width:680px;min-width:400px; 
     margin: 0 auto;
 	height:600px;
 	background-color:#ffffff;
