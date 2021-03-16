@@ -11,18 +11,20 @@ a{
     text-decoration:none;
 }
 #container{
-    width:90%;
+    width:900px;
     margin: 0% auto;
-}
-section{
-    width:90%; 
-    margin: 0 auto;
     height:95%vh;
     background-image:url(images/bckg.jpg);
-    background-size:cover;
+    /*background-size:cover;*/
     background-repeat:no-repeat;
     position:relative;
 }
+/*section{
+    width:90%; 
+    margin: 0 auto;
+       
+}*/
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -52,7 +54,7 @@ nav ul li a{
     color:#2d2a2a;
     font-weight:bold;
 }
-.model{
+.randale{
     height:500px;
     position:absolute;
     bottom:40px;
