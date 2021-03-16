@@ -10,8 +10,8 @@ ul{
 a{
     text-decoration:none;
 }
-#web-container{
-    width:90%;min-width: fit-content; 
+#container{
+    width:90%;
     margin: 0% auto;
 }
 section{
@@ -96,7 +96,7 @@ nav ul li a{
     Height:850px;
 }
 .about-container{
-    width:80%;  
+    width:90%;  
     height:350px;
     background:#ffffff;
     border-radius:20px;
@@ -134,7 +134,7 @@ nav ul li a{
     font-size:17px;
 }
 .services{
-    width:60%; 
+    width:70%; 
     margin: 0 auto;
 	height:600px;
 	background-color:#ffffff;
