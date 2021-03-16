@@ -52,12 +52,11 @@ nav ul li a{
     font-weight:bold;
 }
 .randale{
-    height:300px;
-    display:flex;
+    height:400px;
     float:right;
     position:inherit;
-    margin-top:15%;
-    margin-right:3%;
+    margin-top:10%;
+    margin-right:8%;
     /*left:75%;
     transform: translateX(-75%);*/
 }
